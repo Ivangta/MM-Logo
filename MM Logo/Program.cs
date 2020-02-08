@@ -25,7 +25,7 @@ namespace MentorMate_MM
 
         static void CheckLimits(int number)
         {
-            if (number < 1 || number > 150000)
+            if (number < 2 || number > 10000)
             {
                 throw new ArgumentOutOfRangeException("The number that you entered is out of range!");
             }
